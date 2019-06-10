@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 
-function CharacterDef() {
+const CharacterDef = () => {
     return (
-        /////
+        <div></div>
     );
 }
 

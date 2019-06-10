@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-function ListOfCharacters() {
-    return (
-        //////
-    );
-}
+const ListOfCharacters = () => {
+  return (
+      <div></div>
+  );
+};
 
 export default ListOfCharacters
