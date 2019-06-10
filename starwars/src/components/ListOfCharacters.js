@@ -1,9 +1,12 @@
 import React from 'react';
+import CharacterDef from './CharacterDef.js';
 import '../App.css';
 
-const ListOfCharacters = () => {
+const ListOfCharacters = (props) => {
   return (
-      <div></div>
+      <div>
+          <CharacterDef name={}/>
+      </div>
   );
 };
 
