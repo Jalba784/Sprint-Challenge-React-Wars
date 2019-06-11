@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ListOfCharacters from './components/ListOfCharacters.js';
+// import ListOfCharacters from './components/ListOfCharacters.js';
 import CharacterDef from './components/CharacterDef.js';
 import './App.css';
 
@@ -36,7 +36,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <ListOfCharacters/>
+        {/*<ListOfCharacters />*/}
+        <CharacterDef name={this.state.name} birth_year={this.state.birth_year}/>
       </div>
     );
   }

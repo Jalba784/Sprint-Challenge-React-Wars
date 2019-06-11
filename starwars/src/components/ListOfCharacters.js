@@ -1,13 +1,13 @@
-import React from 'react';
-import CharacterDef from './CharacterDef.js';
-import '../App.css';
-
-const ListOfCharacters = (props) => {
-  return (
-      <div>
-          <CharacterDef name={}/>
-      </div>
-  );
-};
-
-export default ListOfCharacters
+// import React from 'react';
+// import CharacterDef from './CharacterDef.js';
+// import '../App.css';
+//
+// const ListOfCharacters = () => {
+//   return (
+//       <div>
+//           <CharacterDef name={this.state.starwarsChars.name} birth={this.state.starwarsChars.birth_year} />
+//       </div>
+//   );
+// };
+//
+// export default ListOfCharacters
