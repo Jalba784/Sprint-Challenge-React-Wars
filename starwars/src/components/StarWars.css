@@ -4,3 +4,10 @@
     margin: 50px 0px 0px 25%;
     border-radius: 20px;
 }
+p {
+    display: flex;
+    flex-direction: column;
+}
+strong {
+    padding-bottom: 20px;
+}

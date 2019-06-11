@@ -6,3 +6,10 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.hr {
+  width: 50%;
+  background-color: white;
+  margin: 50px 0px 0px 25%;
+  border-radius: 20px;
+}

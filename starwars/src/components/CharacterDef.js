@@ -5,8 +5,8 @@ import '../App.css';
 const CharacterDef = (props) => {
     return (
         <div className="charBox">
-            <h1>{props.name}</h1>
             <p>
+                <strong>Name:</strong> {props.name}
                 <strong>Born:</strong> {props.birth_year}
             </p>
         </div>

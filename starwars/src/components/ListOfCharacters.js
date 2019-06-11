@@ -1,13 +1,15 @@
-// import React from 'react';
-// import CharacterDef from './CharacterDef.js';
-// import '../App.css';
-//
-// const ListOfCharacters = () => {
-//   return (
-//       <div>
-//           <CharacterDef name={this.state.starwarsChars.name} birth={this.state.starwarsChars.birth_year} />
-//       </div>
-//   );
-// };
-//
-// export default ListOfCharacters
+import React from 'react';
+import CharacterDef from './CharacterDef.js';
+import '../App.css';
+
+const ListOfCharacters = (props) => {
+  return (
+      <div>
+          {props.characters.map(item => {
+              <CharacterDef character={item} key={item.created}/>
+          })}
+      </div>
+  );
+};
+
+export default ListOfCharacters
