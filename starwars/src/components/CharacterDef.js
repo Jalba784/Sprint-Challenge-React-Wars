@@ -6,8 +6,8 @@ const CharacterDef = (props) => {
     return (
         <div className="charBox">
             <p>
-                <strong>Name:</strong> {props.name}
-                <strong>Born:</strong> {props.birth_year}
+                <div>Name: {props.characters.name}</div>
+                <div>Born: {props.characters.birth_year}</div>
             </p>
         </div>
     );

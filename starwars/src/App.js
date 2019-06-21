@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ListOfCharacters from './components/ListOfCharacters.js';
-import CharacterDef from './components/CharacterDef.js';
 import './components/StarWars.css'
 import './App.css';
 
