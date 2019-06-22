@@ -1,0 +1,17 @@
+/* Variables */
+$lukesSaber: #1E90FF;
+
+/* Main Title */
+.Header {
+  text-align: center;
+  text-shadow: 0px 5px 1px $lukesSaber;
+}
+
+/* Each Character Card */
+.character {
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 39%;
+}

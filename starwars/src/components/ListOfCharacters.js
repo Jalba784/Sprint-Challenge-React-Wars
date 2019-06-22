@@ -2,7 +2,7 @@ import React from 'react';
 import CharacterDef from './CharacterDef.js';
 import '../App.css';
 
-const ListOfChracters = props => {
+const ListOfCharacters = props => {
     return (
         <div className='characterList'>
             {props.characters.map(item => (
@@ -16,4 +16,4 @@ const ListOfChracters = props => {
     );
 };
 
-export default ListOfChracters
+export default ListOfCharacters

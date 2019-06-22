@@ -1,3 +1,17 @@
+/* Variables */
+/* Main Title */
+.Header {
+  text-align: center;
+  text-shadow: 0px 5px 1px #1E90FF;
+}
 
+/* Each Character Card */
+.character {
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 39%;
+}
 
 /*# sourceMappingURL=App.css.map */
