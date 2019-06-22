@@ -5,13 +5,7 @@ import '../App.css';
 const ListOfCharacters = props => {
     return (
         <div className='characterList'>
-            {props.characters.map(item => (
-                <CharacterDef
-                    character={item}
-                    key={item.created}
-                />
-                )
-            )}
+            {props.characters.map(item => (<CharacterDef character={item} key={item.created}/>))}
         </div>
     );
 };

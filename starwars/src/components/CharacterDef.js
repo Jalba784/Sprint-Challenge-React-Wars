@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 
+/* Props for Characters */
 const CharacterDef = props => {
     return (
         <div className='character'>
