@@ -1,8 +1,10 @@
 /* Variables */
+$lukesSaber: #1E90FF;
+
 /* Main Title */
 .Header {
   text-align: center;
-  text-shadow: 0px 5px 1px #1E90FF;
+  text-shadow: 0px 5px 1px $lukesSaber;
 }
 
 /* Each Character Card */
@@ -13,5 +15,3 @@
   border-radius: 10px;
   margin-left: 39%;
 }
-
-/*# sourceMappingURL=App.css.map */
